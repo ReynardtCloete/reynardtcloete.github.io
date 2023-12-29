@@ -400,7 +400,7 @@ nav.morph {
 /*-------------------------------------------------------------------------------------------------------------------------------------------*/
 /*Mobile view--------------------------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 570px) {
 
     body {
         overflow-x: hidden;
@@ -446,15 +446,31 @@ nav.morph {
         opacity: 0; /*Can't see them*/
     }
 
+    .logo {
+        padding: 7.5px 11px;
+    }
+
     .burger {
         display: block;
         position: absolute;
-        right: 3%;     
+        right: 4%;     
+    }
+
+    .burger .one {
+        width: 35px;
+    }
+    
+    .burger .two {
+        width: 35px;
+    }
+    
+    .burger .three {
+        width: 35px;
     }
 
     .logo {
         position: absolute;
-        left: -3.5%;
+        left: -4.5%;
     } 
 }
 
